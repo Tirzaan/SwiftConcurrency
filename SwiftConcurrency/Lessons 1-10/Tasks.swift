@@ -14,7 +14,7 @@ class TasksViewModel: ObservableObject {
     
     func fetchImage() async {
         try? await Task.sleep(for: .seconds(5))
-        // for bigger things use "try Task.checkCancellation"
+        // For bigger things use "try Task.checkCancellation"
         
         do {
             guard let url = URL(string: "https://picsum.photos/2000") else { return }
