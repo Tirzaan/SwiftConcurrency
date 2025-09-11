@@ -14,6 +14,7 @@ struct ContentView: View {
                 NavigationLink("Lesson 1 - Do, Catch, Try, Throws") { DoCatchTryThrows() }
                 NavigationLink("Lesson 2 - Download Images w/ async") { DownloadImageAsync() }
                 NavigationLink("Lesson 3 - Async/Await") { AsyncAwait() }
+                NavigationLink("Lesson 4 - Tasks") { Tasks() }
             }
             .navigationTitle("Lessons")
         }
