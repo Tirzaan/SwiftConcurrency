@@ -15,6 +15,10 @@ struct ContentView: View {
                 NavigationLink("Lesson 2 - Download Images w/ async") { DownloadImageAsync() }
                 NavigationLink("Lesson 3 - Async/Await") { AsyncAwait() }
                 NavigationLink("Lesson 4 - Tasks") { Tasks() }
+                NavigationLink("Lesson 5 - Async Let") { AsyncLet() }
+                NavigationLink("Lesson 6 - Task Groups") { TaskGroups() }
+                NavigationLink("Lesson 7 - Checked Coninuation") { CheckedConinuation() }
+                NavigationLink("Lesson 8 - Struct, Class, Actor") { StructClassActor() }
             }
             .navigationTitle("Lessons")
         }
