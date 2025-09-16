@@ -18,7 +18,7 @@ struct ContentView: View {
                 NavigationLink("Lesson 5 - Async Let") { AsyncLet() }
                 NavigationLink("Lesson 6 - Task Groups") { TaskGroups() }
                 NavigationLink("Lesson 7 - Checked Coninuation") { CheckedConinuation() }
-                NavigationLink("Lesson 8 - Struct, Class, Actor") { StructClassActor() }
+                NavigationLink("Lesson 8 - Struct, Class, Actor") { StructClassActorHomeView() }
             }
             .navigationTitle("Lessons")
         }
