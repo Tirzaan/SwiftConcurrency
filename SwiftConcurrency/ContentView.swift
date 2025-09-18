@@ -19,6 +19,7 @@ struct ContentView: View {
                 NavigationLink("Lesson 6 - Task Groups") { TaskGroups() }
                 NavigationLink("Lesson 7 - Checked Coninuation") { CheckedConinuation() }
                 NavigationLink("Lesson 8 - Struct, Class, Actor") { StructClassActorHomeView() }
+                NavigationLink("Lesson 9 - Actors") { Actors() }
             }
             .navigationTitle("Lessons")
         }
