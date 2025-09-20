@@ -25,7 +25,7 @@ struct ContentView: View {
                 NavigationLink("Lesson 12 - Async Publisher") { AsyncPublishers() }
                 NavigationLink("Lesson 13 - Strong/Weak References") { StrongWeakReferences() }
                 NavigationLink("Lesson 14 - MVVM") { MVVM() }
-                NavigationLink("Lesson 15 - Something") { Text("Nothing Here Yet") }
+                NavigationLink("Lesson 15 - Refreshable") { RefreshableModifier() }
                 NavigationLink("Lesson 16 - Something") { Text("Nothing Here Yet") }
                 NavigationLink("Lesson 17 - Something") { Text("Nothing Here Yet") }
                 NavigationLink("Lesson 18 - Something") { Text("Nothing Here Yet") }
