@@ -24,6 +24,13 @@ struct ContentView: View {
                 NavigationLink("Lesson 11 - Sendable") { SendableProtocol() }
                 NavigationLink("Lesson 12 - Async Publisher") { AsyncPublishers() }
                 NavigationLink("Lesson 13 - Strong/Weak References") { StrongWeakReferences() }
+                NavigationLink("Lesson 14 - MVVM") { MVVM() }
+                NavigationLink("Lesson 15 - Something") { Text("Nothing Here Yet") }
+                NavigationLink("Lesson 16 - Something") { Text("Nothing Here Yet") }
+                NavigationLink("Lesson 17 - Something") { Text("Nothing Here Yet") }
+                NavigationLink("Lesson 18 - Something") { Text("Nothing Here Yet") }
+                NavigationLink("Lesson 19 - Something") { Text("Nothing Here Yet") }
+                NavigationLink("Lesson 20 - Something") { Text("Nothing Here Yet") }
             }
             .navigationTitle("Lessons")
         }
