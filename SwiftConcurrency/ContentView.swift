@@ -21,6 +21,8 @@ struct ContentView: View {
                 NavigationLink("Lesson 8 - Struct, Class, Actor") { StructClassActorHomeView() }
                 NavigationLink("Lesson 9 - Actors") { Actors() }
                 NavigationLink("Lesson 10 - Global Actors") { GlobalActors() }
+                NavigationLink("Lesson 11 - Sendable") { SendableProtocol() }
+                NavigationLink("Lesson 12 - Async Publisher") { AsyncPublishers() }
             }
             .navigationTitle("Lessons")
         }
