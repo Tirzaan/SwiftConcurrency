@@ -20,6 +20,7 @@ struct ContentView: View {
                 NavigationLink("Lesson 7 - Checked Coninuation") { CheckedConinuation() }
                 NavigationLink("Lesson 8 - Struct, Class, Actor") { StructClassActorHomeView() }
                 NavigationLink("Lesson 9 - Actors") { Actors() }
+                NavigationLink("Lesson 10 - Global Actors") { GlobalActors() }
             }
             .navigationTitle("Lessons")
         }
