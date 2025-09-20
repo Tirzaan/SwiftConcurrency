@@ -23,6 +23,7 @@ struct ContentView: View {
                 NavigationLink("Lesson 10 - Global Actors") { GlobalActors() }
                 NavigationLink("Lesson 11 - Sendable") { SendableProtocol() }
                 NavigationLink("Lesson 12 - Async Publisher") { AsyncPublishers() }
+                NavigationLink("Lesson 13 - Strong/Weak References") { StrongWeakReferences() }
             }
             .navigationTitle("Lessons")
         }
