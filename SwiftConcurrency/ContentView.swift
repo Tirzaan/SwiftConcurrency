@@ -29,7 +29,7 @@ struct ContentView: View {
                 NavigationLink("Lesson 16 - Searchable") { SearchableModifier() }
                 NavigationLink("Lesson 17 - Photo Picker") { PhotoPicker() }
                 NavigationLink("Lesson 18 - Async Stream") { AsyncStreams() }
-                NavigationLink("Lesson 19 - Something") { Text("Nothing Here Yet") }
+                NavigationLink("Lesson 19 - Observable Macro") { ObservableMacro() }
             }
             .navigationTitle("Lessons")
         }
