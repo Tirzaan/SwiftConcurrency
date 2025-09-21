@@ -27,7 +27,7 @@ struct ContentView: View {
                 NavigationLink("Lesson 14 - MVVM") { MVVM() }
                 NavigationLink("Lesson 15 - Refreshable") { RefreshableModifier() }
                 NavigationLink("Lesson 16 - Searchable") { SearchableModifier() }
-                NavigationLink("Lesson 17 - Something") { Text("Nothing Here Yet") }
+                NavigationLink("Lesson 17 - Photo Picker") { PhotoPicker() }
                 NavigationLink("Lesson 18 - Something") { Text("Nothing Here Yet") }
                 NavigationLink("Lesson 19 - Something") { Text("Nothing Here Yet") }
             }
